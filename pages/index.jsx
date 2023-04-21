@@ -22,7 +22,7 @@ const Homepage = () => {
 
   return (
     <div>
-      Consulta clima
+      Consulta climas
       <Buttonweather onClick={fetchUserData} />
       {weather && weather.name && (
         <>
